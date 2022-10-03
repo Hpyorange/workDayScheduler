@@ -1,5 +1,8 @@
-const currentDay = moment().format('dddd, MMM DD YYYY, HH:mm');
+const currentDay = moment().format('dddd, MMM DD YYYY');
 $('#currentDay').text(currentDay);
+
+const time  = moment().format('HH:mm:ss');
+$('#time').text(time)
 
 $('.saveBtn').on('click',function(){
 

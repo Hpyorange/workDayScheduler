@@ -82,3 +82,45 @@ textarea {
   font-family: 'Expletus Sans', cursive;
 }
 
+.boxCover{
+  height: 60px;
+  width: 200px;
+  background: linear-gradient(135deg, #14ffe9,#ffeb3b,#ff00e0);
+  border-radius: 8px;
+  animation: changeHue 1.5s linear infinite;
+}
+
+.boxCover .timeDisplay{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1b1b1b;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+#time{
+  line-height: 40px;
+  color:#fff;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9,#ffeb3b,#ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#currentDay{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+@keyframes changeHue {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
