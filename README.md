@@ -2,7 +2,7 @@
 
 ## Description
 This is a daily planer application. The app mainly used bootstrap,jquery,and moment js. User can add event to this daily planer.
-## My_Web_Img
+## Web_Img
 ![Web brief](asset/img/WorkDayScheduler.png "Web sample")
 
 ## Web_Page_Link
